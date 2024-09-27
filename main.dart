@@ -3,10 +3,8 @@ import 'book_class.dart';
 void main() {
   // Creating book objects
   Book book1 = Book("Dart Apprentice: Fundamentals", 'Jonathan Sande', 2022);
-  Book book2 =
-      Book("Dart Apprentice: Beyond the Basics", "Jonathan Sande.", 2022);
-  Book book3 =
-      Book("Data Structures & Algorithms in Dart", "Jonathan Sande.", 2023);
+  Book book2 = Book("Dart Apprentice: Beyond the Basics", "Jonathan Sande.", 2022);
+  Book book3 = Book("Data Structures & Algorithms in Dart", "Jonathan Sande.", 2023);
 
   // Reading some pages
   book1.read(100);
